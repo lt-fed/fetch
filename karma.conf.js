@@ -22,6 +22,14 @@ module.exports = function (config) {
       'Chrome',
     ],
     frameworks: ['jasmine'],
+    mockUriStart: '/ma/',
+    middleware: ['mock'],
+    plugins: [
+      require('./test/mock/middleware'),
+      require('karma-webpack'),
+      require('karma-jasmine'),
+      require('karma-chrome-launcher'),
+    ],
     singleRun: true,
   })
 };
