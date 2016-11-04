@@ -1,0 +1,35 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "fetch-polyfill",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lt-fed/fetch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lt-fed/fetch/issues"
+  },
+  "homepage": "https://github.com/lt-fed/fetch#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-webpack": "^1.8.0",
+    "webpack": "^1.13.3"
+  },
+  "peerDependencies": {
+    "promise": "^7.1.1"
+  }
+}
